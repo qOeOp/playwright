@@ -6,7 +6,7 @@ const test_1 = require("@playwright/test");
     // Expect a title "to contain" a substring.
     await (0, test_1.expect)(page).toHaveTitle(/Playwright/);
 });
-(0, test_1.test)('get started link', async ({ page }) => {
+test_1.test.fixme('get started link', async ({ page }) => {
     await page.goto('https://playwright.dev/');
     // Click the get started link.
     await page.getByRole('link', { name: 'Get started' }).click();

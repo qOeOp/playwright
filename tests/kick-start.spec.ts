@@ -1,4 +1,5 @@
-import {expect, test as base} from "@playwright/test"
+import {expect} from "@playwright/test";
+import {test as base} from './auto-fixture'
 import {TodoPage} from "./todo-page";
 
 // Extend basic test by providing a "todoPage" fixture.

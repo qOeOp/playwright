@@ -10,7 +10,9 @@
   "packageManager": "pnpm@10.13.1",
   "devDependencies": {
     "@playwright/test": "^1.54.1",
+    "@types/debug": "^4.1.12",
     "@types/node": "^24.0.14",
+    "debug": "^4.4.1",
     "typescript": "^5.8.3"
   }
 }
